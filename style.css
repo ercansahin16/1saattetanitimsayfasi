@@ -1,0 +1,86 @@
+body {
+    margin-top: 56px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.hakkimizda {
+    background-color: #f2f2f2;
+
+}
+
+.ayrac {
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.igri {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.ibeyaz {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+
+.ekipCard img:hover {
+    opacity: 0.8;
+}
+
+.ekipCard {
+    margin-top: 5%;
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 2px 2px 1px gray;
+    border-radius: 10px;
+    
+}
+
+/* @media (max-width: 768px) {
+    .ekipCard {
+       width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .cardg {
+       width: 100%;
+    } */ 
+/* }
+@media (max-width:768px){
+    .figure-img{
+        width: 105px;
+        height: 70px;
+
+    
+}
+} */
+/* @media (min-width:768px){
+    .figure-img{
+        width: 255px;
+        height: 170px;
+        
+    
+}
+} */
+.figure:hover{
+    opacity: 0.6;
+}
+.galeri {
+    background-color: #f2f2f2;
+}
+.iletisim {
+    background-color: white;
+}
